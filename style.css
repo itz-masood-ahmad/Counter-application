@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(9, 112, 128);
+}
+#counter{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(51, 216, 216);
+}
+#buttons{
+    text-align: center;
+}
+.btn{
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(19, 191, 222);
+    background-color: rgb(215, 248, 250);
+    padding: 10px 25px;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: background-color border-color color 0.15s;
+    border-color: rgb(19, 191, 222);
+}
+.btn:hover{
+    background-color: rgb(19, 191, 222);
+    border-color: rgb(215, 248, 250);
+    color: rgb(215, 248, 250);
+}
