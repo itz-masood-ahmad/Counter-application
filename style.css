@@ -28,3 +28,12 @@ body{
     border-color: rgb(215, 248, 250);
     color: rgb(215, 248, 250);
 }
+#head{
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: underline;
+    font-family: 'Times New Roman';
+    color: aliceblue;
+    cursor: default;
+}
